@@ -3,13 +3,24 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon server.js",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
+    "@authenio/samlify-node-xmllint": "^2.0.0",
+    "axios": "^0.20.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
     "next": "9.5.5",
+    "next-auth": "^3.1.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "samlify": "^2.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
   }
 }
