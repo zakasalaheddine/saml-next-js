@@ -69,8 +69,6 @@ app.prepare().then(() => {
 
   server.get("/login", async (req, res) => {
     const { id, context } = await sp.createLoginRequest(idp, "redirect");
-    const endpoint = idp.entityMeta.getSingleSignOnService("post");
-    console.log({ endpoint, context });
     return res.redirect(context);
   });
 
@@ -95,6 +93,7 @@ app.prepare().then(() => {
   server.all("*", (req, res) => {
     return handle(req, res);
   });
+  
   server.listen(port, (err) => {
     if (err) throw err;
     console.log(`> Ready on http://localhost:${port}`);
