@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor entityID="http://www.okta.com/exkaxu6l0FKtCOpOX5d5" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><md:IDPSSODescriptor WantAuthnRequestsSigned="false" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDpjCCAo6gAwIBAgIGAXUw3OsLMA0GCSqGSIb3DQEBCwUAMIGTMQswCQYDVQQGEwJVUzETMBEG
+A1UECAwKQ2FsaWZvcm5pYTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNjbzENMAsGA1UECgwET2t0YTEU
+MBIGA1UECwwLU1NPUHJvdmlkZXIxFDASBgNVBAMMC2Rldi05OTE2Mzk2MRwwGgYJKoZIhvcNAQkB
+Fg1pbmZvQG9rdGEuY29tMB4XDTIwMTAxNjEwMDIwNVoXDTMwMTAxNjEwMDMwNVowgZMxCzAJBgNV
+BAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRYwFAYDVQQHDA1TYW4gRnJhbmNpc2NvMQ0wCwYD
+VQQKDARPa3RhMRQwEgYDVQQLDAtTU09Qcm92aWRlcjEUMBIGA1UEAwwLZGV2LTk5MTYzOTYxHDAa
+BgkqhkiG9w0BCQEWDWluZm9Ab2t0YS5jb20wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCM2bZzxbppqki2ZjZayR991XlREdWnvOPE8MU+6judPiapyAAd0xIAabeSXNwWdiRgFaldB2b8
+8ZvcQNHNfdbateklQug+yqrqvXtzSHniFARw0Zgk23l0WNoz5+nRC3vetSfQVJOoDI7aL5DqzE2e
+frr1bKsiyQWN4gP/ERXbYCGjHtnw6ozOABiB8ng6dGcHOOsMoT6yx3ysp7LGntvJg7QxZ5M0QlCc
+jEa88h0J7WPt+lDG4Fs2vVSe37ISEkHQtCv2ZqZvjq7abb2xziTf6TnXY3BceyJ7njH5xzQx7uQU
+VYn9RdX3XXwwJYDOsgwTlobpTF+vVe/XsNFcsAghAgMBAAEwDQYJKoZIhvcNAQELBQADggEBABBx
+Fhl/5Mtkykh3dPY9E8SUoptTv//SK5Lds31lsJ9wh7TQRkRrTtBt1vBr3B7JH+IHcnbn9CITey0a
+U+N1SNjQeAoQYg3b24ku5X2cjU4y08UotvJtOf7yhVokNKHKSAi4K3hPojpbbzpwcoDg4+QWB3AU
+Bw37KcY+UDaZul74F6RMOSqSXy/GQBYsrLkciCZbX1/7HvciaXjJQ3fx+64szwxQT6rMQwFEPijY
+TF2p0CUzGn+F0q0fTSOQ69a6Q0aOBOQpPvtErq0mpZrnD1zLh+BOZeavs3kd4f75g4F/6VRw8qRb
+uNVtC6aCjhpcdvzCJ3qMMmj0Fk/16CoXFkw=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</md:NameIDFormat><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dev-9916396.okta.com/app/gmaildev9916396_testsaml_1/exkaxu6l0FKtCOpOX5d5/sso/saml"/><md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://dev-9916396.okta.com/app/gmaildev9916396_testsaml_1/exkaxu6l0FKtCOpOX5d5/sso/saml"/></md:IDPSSODescriptor></md:EntityDescriptor>
